@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Üye Kayıt Formu</title>
+</head>
+<body>
+    <h2>Üye Kayıt Formu</h2>
+    <form action="RegisterServlet" method="post">
+        Ad: <input type="text" name="firstName"><br><br>
+        Soyad: <input type="text" name="lastName"><br><br>
+        Yaşadığınız Şehir: 
+        <select name="city">
+            <option value="İstanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+            <option value="İzmir">İzmir</option>
+            <option value="Bursa">Bursa</option>
+            <option value="Samsun">Samsun</option>
+            
+           
+        </select><br><br>
+        Eposta Adresi: <input type="email" name="email"><br><br>
+        Şifre: <input type="password" name="password"><br><br>
+        Şifre Tekrar: <input type="password" name="confirmPassword"><br><br>
+        <input type="submit" value="Kayıt Ol">
+    </form>
+</body>
+</html>
